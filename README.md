@@ -1,0 +1,11 @@
+# Study and realization of efficiently solvable cases of the quadratic assignment problem
+
+## Final destination problem solution
+
+    The quadratic assignment problem (QAP) is a basic mathematical model in various fields, such as automation of design of object layout schemes, including master plans of enterprises, shops, and radio-electronic equipment.
+
+    One of the applications of the quadratic assignment problem is the optimization of the resource allocation process in the field of transportation logistics. For example, suppose we have several warehouses and several stores, and we want to determine the optimal matching between warehouses and stores to minimize the total cost of transporting goods. Each warehouse can be assigned to multiple stores, and each such assignment has a cost that depends on the distance and volume of goods transported. Thus, we can formulate this problem as a quadratic assignment problem, where we seek to minimize the total transportation cost by choosing the optimal assignment between warehouses and stores. Solving this problem will optimize logistics processes and reduce the cost of transporting goods.
+
+    An edge-weighted graph without loops and multiple edges is used to model the links between objects. The vertices of the graph correspond to objects, and the edges indicate the existence of links between them, where the weights of the edges reflect the unit costs of the links. The positions for object placement are considered as nodes in the network, and the optimization criterion is the minimum total cost of links between objects.
+
+    This paper emphasizes the development of polynomial algorithms for special kinds of graphs and networks, which distinguishes it from the search for strong KZN solvability for the matrix formulation of the problem. In particular, an efficient local optimization algorithm for the case of bipartite graphs is presented. It is shown that if the graph and the network are isomorphic trees, the KZN problem is solvable in polynomial time using dynamic programming methods.
